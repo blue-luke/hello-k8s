@@ -27,6 +27,7 @@ spec:
         app: hello-k8s
     spec:
       containers:
-      - name: paulbouwer/hello-kubernetes:1.10
+      - name: hello-k8s
+        image: paulbouwer/hello-kubernetes:1.10
         ports:
         - containerPort: 3000
